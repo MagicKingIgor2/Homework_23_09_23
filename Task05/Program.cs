@@ -3,7 +3,7 @@
 //782 -> 8
 //918 -> 1
 int Figure (string message) {
-    System.Console.Write(message);
+    Console.Write(message);
     string value = Console.ReadLine();
     int result = Convert.ToInt32 (value);
     return result;
