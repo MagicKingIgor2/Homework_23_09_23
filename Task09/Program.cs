@@ -4,8 +4,8 @@
 //9012 -> 12
 int Prompt(string message) {
     Console.Write(message);
-    string readInput = Console.ReadLine();
-    int result = int.Parse(readInput);
+    string ReadInput = Console.ReadLine();
+    int result = int.Parse(ReadInput);
     return result;
 }
 int sum(int number) {
