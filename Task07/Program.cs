@@ -27,6 +27,6 @@ if (needday(days)) {
         Console.WriteLine("Выходной");
     }
     else {
-        Console.WriteLine("Рабочий день");
+        Console.WriteLine($"Рабочий день");
     }
 }
