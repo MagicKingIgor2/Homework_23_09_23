@@ -21,7 +21,7 @@ void printArray (int[] array) {
         Console.Write($"{array[i]} ");
         }
     Console.Write($"{array[array.Length-1]}");
-    Console.Write("]");
+    Console.WriteLine("]");
 }
 int Length = Prompt("Длина массива: ");
 int min = Prompt("Введите минимальное значение для диапазона массива: ");
