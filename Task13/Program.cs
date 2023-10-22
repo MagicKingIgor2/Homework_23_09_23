@@ -2,8 +2,8 @@
 //[3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 double Prompt(string message) {
     Console.Write(message);
-    string readInput = Console.ReadLine();
-    double result = double.Parse(readInput);
+    string value = Console.ReadLine();
+    double result = Convert.ToDouble(value);
     return result;
 }
 double[] generateArray (double Length, double minValue, double maxValue) {
